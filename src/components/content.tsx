@@ -28,7 +28,7 @@ const Content = () => {
 
   return (
     <div >
-      <div className="carousel w-75">
+      <div className="carousel mt-3 w-75">
         <div className="carousel-container">
           <button className="carousel-button prev" onClick={prevSlide}>
             &lt;
