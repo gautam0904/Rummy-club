@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAngleLeft, faAngleRight } from '@fortawesome/free-solid-svg-icons';
 
 const Content = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -31,7 +33,7 @@ const Content = () => {
       <div className="rummy-carousel carousel mt-3 w-75">
         <div className="carousel-container">
           <button className="carousel-button prev" onClick={prevSlide}>
-            &lt;
+          <FontAwesomeIcon icon={faAngleLeft} />
           </button>
           <div className="carousel-image-container">
             <img
@@ -41,7 +43,7 @@ const Content = () => {
             />
           </div>
           <button className="carousel-button next" onClick={nextSlide}>
-            &gt;
+          <FontAwesomeIcon icon={faAngleRight} />
           </button>
         </div>
         <div className="carousel-controls">

@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
 
@@ -12,7 +14,8 @@ const Header = () => {
                     href="https://teenpattigames.xyz/teen-patti-master-download/"
                     className="downloadButton ms-2"
                 >
-                    Download
+                    Download 
+                    <FontAwesomeIcon className='ms-3' icon={faDownload} />
                 </a>
             </nav>
         </div>
