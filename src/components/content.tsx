@@ -66,14 +66,14 @@ const Content = () => {
         </div>
       </a>
 
-      <div className="mt-3 container  d-flex justify-content-center align-items-center">
-        <img className='three-img img-fluid mx-2 col-lg-4' src="../../public/Thampi Book.png" alt="" />
-        <img className='three-img img-fluid mx-2 col-lg-4' src="../../public/table.png" alt="" />
-        <img className='three-img img-fluid mx-2 col-lg-4' src="../../public/The most trustworthy.png" alt="" />
+      <div className="mt-3 container  d-flex justify-content-between align-items-center">
+        <img className='three-img img-fluid mx-2 col-lg-4' src="/Thampi Book.png" alt="" />
+        <img className='three-img img-fluid mx-2 col-lg-4' src="/table.png" alt="" />
+        <img className='three-img img-fluid mx-2 col-lg-4' src="/The most trustworthy.png" alt="" />
       </div>
 
-      <div className="raw content-gradiant d-flex align-items-center">
-        <div className="raw container">
+      <div className="raw mt-3 content-gradiant d-flex align-items-center">
+        <div className="raw d-flex container align-items-center">
           <div className='col-lg-8'>
             <p>
               A popular online card game with a unique twist is called Teen Patti. The game involves strategy, quick thinking, and a bit of luck, making it exciting and engaging. Through online platforms, players can join games anytime and compete against friends and other players around the world. With user-friendly interface, secure transactions, and exciting gameplay, online Teen Patti offers an authentic experience that keeps players coming back, blends tradition with the convenience of modern technology.
@@ -86,7 +86,7 @@ const Content = () => {
 
       </div>
 
-      <div className="mt-3 container  d-flex justify-content-center align-items-center">
+      <div className="mt-3 container  d-flex justify-content-between align-items-center">
         <img className='three-img img-fluid mx-2 col-lg-4' src="../../public/Thampi Book.png" alt="" />
         <img className='three-img img-fluid mx-2 col-lg-4' src="../../public/table.png" alt="" />
         <img className='three-img img-fluid mx-2 col-lg-4' src="../../public/The most trustworthy.png" alt="" />
@@ -94,13 +94,15 @@ const Content = () => {
 
 
       <div className="raw mt-3 content-gradiant d-flex align-items-center">
-        <div className='col-lg-4'>
-          <img className='content-img img-fluid' src="../../public/Be a master.png" alt="" />
+        <div className="raw d-flex container align-items-center">
+          <div className='col-lg-4'>
+            <img className='content-img img-fluid' src="../../public/Be a master.png" alt="" />
+          </div>
+          <div className='col-lg-8'></div>
+          <p>
+            The traditional version of Teen Patti involves each player receiving three cards and a bet on who has the strongest hand. Similar to poker, the aim is to hold a better hand than the other players. The game can be played with or without a villain, adding suspense as …
+          </p>
         </div>
-        <div className='col-lg-8'></div>
-        <p>
-          The traditional version of Teen Patti involves each player receiving three cards and a bet on who has the strongest hand. Similar to poker, the aim is to hold a better hand than the other players. The game can be played with or without a villain, adding suspense as …
-        </p>
       </div>
     </div>
 

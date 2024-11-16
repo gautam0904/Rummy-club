@@ -5,8 +5,7 @@ const Header = () => {
     return (
         <div className="bg-dark sticky-top">
             <nav className="container bg-dark d-flex align-items-center text-white">
-                <img className='img-fluid me-2 navimg'  src="public/logo.svg" alt="" />
-
+                <img className="img-fluid me-2 navimg" src="/logo.svg" alt="Logo" />
                 <h1>Rummy Club</h1>
 
                 <a
