@@ -154,6 +154,7 @@ html,#root {
 
 .content-gradiant{
   background: linear-gradient(to right, #C82983, #292CC5, #C329A5, #2931C0, #BD29C8);
+  color: #fff;
 }
 
 .footer{
